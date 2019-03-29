@@ -14,7 +14,7 @@ export class CourseCardsComponent {
 
     navigate(path) {
 
-        this.router.navigate([{outlets: {primary: path, sidemenu:path}}], {relativeTo: this.route});
+        this.router.navigate([{outlets: {primary: path, sidemenu: path}}], {relativeTo: this.route});
 
     }
 
